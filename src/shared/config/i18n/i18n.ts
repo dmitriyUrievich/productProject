@@ -9,6 +9,7 @@ i18n
     .use(initReactI18next)
     .init({
         fallbackLng: 'en',
+        // eslint-disable-next-line no-undef
         debug: __IS_DEV,
 
         interpolation: {
@@ -17,7 +18,6 @@ i18n
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json',
         },
-
     })
 
 export default i18n
