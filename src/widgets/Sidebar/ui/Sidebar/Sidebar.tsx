@@ -4,7 +4,7 @@ import { ThemeSwitcher } from 'widgets/ThemeSwittcher'
 import { LangSwitcher } from 'widgets/LangSwitcher'
 import { useTranslation } from 'react-i18next'
 import { Button } from 'shared/ui/Button/ui/Button'
-import cls from 'Sidebar.module.scss'
+import cls from './Sidebar.module.scss'
 
 interface SidebarProps {
     className?: string;
