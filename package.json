@@ -88,8 +88,8 @@
     "react-router-dom": "^6.2.1"
   },
   "loki": {
-    "loki-same": {
-      "ignoreCares": true
+    "looks-same": {
+      "ignoreCaret": true
     },
     "configurations": {
       "chrome.laptop": {
